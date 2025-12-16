@@ -7,7 +7,7 @@ import { Github, Linkedin, Mail, MapPin, Twitter } from "lucide-react"
 import Link from "next/link"
 
 export const metadata = {
-  title: "Contact | Portfolio",
+  title: "Contact",
   description: "Get in touch with me",
 }
 

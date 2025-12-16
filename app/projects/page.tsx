@@ -5,7 +5,7 @@ import { AnimatedSection } from "@/components/animated-section"
 import { ProjectsGrid } from "@/components/projects-grid"
 
 export const metadata = {
-  title: "Projects | Portfolio",
+  title: "Projects",
   description: "Explore my software development projects and technical work",
 }
 

@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" })
 
 export const metadata: Metadata = {
-  title: "Portfolio | Creative Developer & Artist",
+  title: "Adarsha Shrestha",
   description: "Personal portfolio showcasing art, projects, publications, and experiences",
   generator: "v0.app",
   icons: {

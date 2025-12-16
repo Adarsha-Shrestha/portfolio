@@ -6,7 +6,7 @@ import { SkillBadge } from "@/components/skill-badge"
 import { Download, Briefcase, GraduationCap, Award, Code2 } from "lucide-react"
 
 export const metadata = {
-  title: "Resume | Portfolio",
+  title: "Resume",
   description: "Professional resume and CV",
 }
 

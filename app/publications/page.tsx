@@ -5,7 +5,7 @@ import { AnimatedSection } from "@/components/animated-section"
 import { PublicationCard } from "@/components/publication-card"
 
 export const metadata = {
-  title: "Publications | Portfolio",
+  title: "Publications",
   description: "Academic publications and research work",
 }
 

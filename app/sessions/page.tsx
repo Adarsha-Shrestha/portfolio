@@ -5,7 +5,7 @@ import { AnimatedSection } from "@/components/animated-section"
 import { ExperienceCard } from "@/components/experience-card"
 
 export const metadata = {
-  title: "Sessions & Experiences | Portfolio",
+  title: "My Journey",
   description: "Fellowships, events, and memorable experiences",
 }
 

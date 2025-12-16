@@ -5,7 +5,7 @@ import { AnimatedSection } from "@/components/animated-section"
 import { ArtGallery } from "@/components/art-gallery"
 
 export const metadata = {
-  title: "Art Gallery | Portfolio",
+  title: "Art Gallery",
   description: "Explore my collection of Thangka paintings and artwork",
 }
 
