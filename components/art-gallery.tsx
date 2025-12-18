@@ -8,52 +8,100 @@ import { AnimatedSection } from "./animated-section"
 
 const artworks = [
   {
-    src: "/traditional-thangka-painting-buddha-with-intricate.jpg",
-    title: "Golden Buddha",
-    description: "Traditional Thangka painting featuring Buddha with intricate gold leaf details",
+    src: "/artwork/Dark Night.jpeg",
+    title: "Dark Night",
+    description: "Dark Night",
+    category: "Abstract",
+  },
+  {
+    src: "/artwork/The Woman.jpeg",
+    title: "The Woman",
+    description: "The depection of a Womans aura",
+    category: "Abstract",
+  },
+  {
+    src: "/artwork/Sauron.jpeg",
+    title: "Sauron",
+    description: "Inspired by the Lord of the Rings Tales",
+    category: "Abstract",
+  },
+  {
+    src: "/artwork/Eyes.jpeg",
+    title: "Buddha Eyes",
+    description: "Ever peaceful gaze of Buddha",
+    category: "Abstract",
+  },
+  {
+    src: "/artwork/The Wheel.jpeg",
+    title: "Abstract Wheel",
+    description: "The broken wheel of fire and water",
+    category: "Abstract",
+  },
+  {
+    src: "/artwork/Shapes.jpeg",
+    title: "Shapes of Mind",
+    description: "Shapes of the vivid contemplation",
+    category: "Abstract",
+  },
+  {
+    src: "/artwork/Window.png",
+    title: "Traditional Window",
+    description: "Representation of the traditional window",
+    category: "Realism",
+  },
+  {
+    src: "/artwork/buddha.jpg",
+    title: "Buddha",
+    description: "Depection of Buddha in the meditaive state",
     category: "Thangka",
   },
   {
-    src: "/colorful-mandala-thangka-painting-geometric-patter.jpg",
+    src: "/photoshop work/brightig.jpg",
+    title: "Light Buld reimagined",
+    description: "What if jelly fish was a light bulb",
+    category: "Digital",
+  },
+  {
+    src: "/artwork/Mandala.jpeg",
     title: "Sacred Mandala",
     description: "Intricate mandala representing the universe in Tibetan Buddhist tradition",
     category: "Thangka",
   },
   {
-    src: "/green-tara-thangka-painting-deity.jpg",
-    title: "Green Tara",
-    description: "Depiction of Green Tara, the female Bodhisattva of compassion",
-    category: "Thangka",
-  },
-  {
-    src: "/abstract-digital-art-flowing-colors-cyan-violet.jpg",
-    title: "Digital Flow",
-    description: "Contemporary digital artwork exploring color and movement",
+    src: "/photoshop work/owlinside.jpg",
+    title: "Owl inside",
+    description: "Story of an owl trapped in a womans body",
     category: "Digital",
   },
   {
-    src: "/traditional-tibetan-landscape-painting-mountains-t.jpg",
-    title: "Mountain Temple",
-    description: "Traditional landscape depicting a Himalayan monastery",
-    category: "Landscape",
+    src: "/photoshop work/finaliphones.jpg",
+    title: "Worlds inside Worlds",
+    description: "Digital Worlds reality",
+    category: "Digital",
   },
   {
-    src: "/lotus-flower-painting-traditional-asian-art.jpg",
-    title: "Lotus Bloom",
-    description: "Symbolic lotus flower representing purity and enlightenment",
-    category: "Botanical",
+    src: "/photoshop work/glowingelephant.jpg",
+    title: "Shining Baby",
+    description: "Blessings form the heaven",
+    category: "Digital",
   },
   {
-    src: "/wheel-of-life-thangka-painting-buddhist-cosmology.jpg",
-    title: "Wheel of Life",
-    description: "The Bhavachakra depicting the cycle of existence",
-    category: "Thangka",
+    src: "/photoshop work/hands fire and frost.jpg",
+    title: "Hands of Fire and Frost",
+    description: "One to distant form the other",
+    category: "Digital",
   },
   {
-    src: "/abstract-meditation-art-peaceful-zen.jpg",
-    title: "Meditation",
-    description: "Abstract representation of the meditative state",
-    category: "Abstract",
+    src: "/photoshop work/lioness.jpg",
+    title: "Roar of Waves",
+    description: "The ocean roars with the power of the waves",
+    category: "Digital",
+  },
+  {
+    src: "/photoshop work/sunsetwingsfinal.jpg",
+    title: "Sunset Wings",
+    description: "An angel with wings of sunset",
+    category: "Digital",
   },
 ]
 
@@ -80,11 +128,10 @@ export function ArtGallery() {
           <button
             key={category}
             onClick={() => setSelectedCategory(category)}
-            className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-              selectedCategory === category
-                ? "bg-primary text-primary-foreground"
-                : "glass-panel text-muted-foreground hover:text-foreground hover:bg-secondary"
-            }`}
+            className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${selectedCategory === category
+              ? "bg-primary text-primary-foreground"
+              : "glass-panel text-muted-foreground hover:text-foreground hover:bg-secondary"
+              }`}
           >
             {category}
           </button>

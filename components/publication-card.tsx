@@ -91,7 +91,7 @@ export function PublicationCard({
             </a>
           )}
           <a
-            href="#"
+            href="https://arxiv.org/abs/2512.14585"
             className="inline-flex items-center gap-2 px-4 py-2 rounded-lg text-muted-foreground text-sm font-medium hover:text-foreground transition-colors ml-auto"
           >
             <ExternalLink className="w-4 h-4" />

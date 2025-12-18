@@ -24,7 +24,7 @@ export default function ArtPage() {
                 Art <span className="text-gradient">Gallery</span>
               </h1>
               <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                A collection of traditional Thangka paintings, digital artwork, and other creative expressions that
+                A collection of traditional paintings, digital artwork, and other creative expressions that
                 reflect my artistic journey and cultural heritage.
               </p>
             </AnimatedSection>

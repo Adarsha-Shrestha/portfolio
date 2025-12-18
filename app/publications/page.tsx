@@ -20,15 +20,15 @@ const publications = [
     // slidesUrl: "#",
     abstract:
       "Low-resource languages like Nepali face persistent challenges in natural language processing due to limited linguistic resources and tokenizers that struggle to capture their morphological complexity. Nepali’s agglutinative structure and Devanagari script introduce segmentation difficulties that general-purpose methods often fail to handle effectively. To address these limitations, this study develops and evaluates custom Nepali subword tokenizers using the SentencePiece framework, comparing Byte Pair Encoding, Unigram, and WordPiece across vocabulary sizes of 16k, 32k, and 50k tokens. A high-quality corpus was created by combining the NepBERTa dataset with curated news articles from Kantipur and OnlineKhabar, followed by extensive preprocessing to ensure linguistic consistency. Each tokenizer was integrated into a GPT-2 model and assessed using token-to-word ratio, coverage metrics, and perplexity. The results show that WordPiece with a 16k vocabulary provides the most compact segmentation, achieving a token-to-word ratio of 0.9787, which is notably lower than the BPE and Unigram models at the same scale. Larger vocabularies generally help reduce perplexity. For example, BPE at 16k begins around 21.8, while Unigram models at 32k and 50k fall in the 29 to 31 range, though these gains offer diminishing improvements in compression. Although the baseline o200k model attains a very low perplexity of 6.26, its massive vocabulary introduces redundancy, whereas the custom models achieve higher token coverage with far smaller vocabularies, making them more efficient for Nepali. The findings emphasize that a well-tuned WordPiece tokenizer balances compactness and performance for Nepali NLP."
-      ,
+    ,
   },
   {
-    title: "Towards Nepali-Language LLMs: Efficient GPT-2 Training with a Nepali BPE Tokenizer",
+    title: "Towards Nepali-Language LLMs: Efficient GPT Training with a Nepali BPE Tokenizer",
     authors: ["Adarsha Shrestha", "Basanta Pokharel", "Binit Shrestha", "Smriti Adhikari"],
     venue: "arXiv preprint",
     year: 2025,
     type: "preprint" as const,
-    pdfUrl: "#",
+    pdfUrl: "https://arxiv.org/abs/2512.14585",
     abstract:
       "Nepali, a low-resource language spoken by over 32 million people, continues to face challenges in natural language processing (NLP) due to its complex grammar, agglutinative morphology, and limited availability of high-quality corpora. Most efforts to date have centered on basic encoder architectures; they remain insufficient for Nepali-specific text generation. This study presents a GPT-2–based Nepali language model trained using several training strategies inspired by GPT-3, including optimized learning rate schedules, batch scaling, and architectural refinements. A custom 16k Byte-Pair Encoding (BPE) tokenizer was trained exclusively on Nepali text to ensure more consistent segmentation and improved input representation. The model was pretrained on a combined dataset comprising a 10.75GB cleaned NepBERTa corpus and additional web-scraped Nepali news articles. FlashAttention was integrated to reduce memory usage and stabilize training. After two epochs, the model achieved a training loss of 3.168177, a validation loss of 3.081982, and a final perplexity of 21.80, demonstrating its capability to generate coherent Nepali news-style text.",
   },
@@ -87,8 +87,7 @@ export default function PublicationsPage() {
                 <span className="text-gradient">Publications</span>
               </h1>
               <p className="text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                My research focuses on the intersection of machine learning and cultural heritage preservation, with
-                publications in top-tier venues.
+                My research focuses on developing language models and NLP tools for low-resource languages, bridging technical innovation with responsible AI.
               </p>
             </AnimatedSection>
 
