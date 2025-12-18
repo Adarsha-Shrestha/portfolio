@@ -18,10 +18,10 @@ const experiences = [
     description:
       "Selected as one of 20 student partners from over 600 applicants. Delivered multiple knowledge-sharing sessions while gaining hands-on exposure to design thinking, agile development, and project management. Built a full-stack AI-powered exam preparation platform as a capstone project, featuring an agentic RAG system with automated exam generation and evaluation.",
     images: [
-      "/leapfrog/1.jpg",
-      "/leapfrog/4.jpg",
-      "/leapfrog/2.jpg",
-      "/leapfrog/3.jpg",
+      "/leapfrog/1.JPG",
+      "/leapfrog/4.JPG",
+      "/leapfrog/2.JPG",
+      "/leapfrog/3.JPG",
     ],
   },
   {
@@ -82,7 +82,7 @@ const experiences = [
     description:
       "Won the Best AI Implementation Award for designing a personalized learning system that adapts to individual student pace. Leveraged AI-driven insights to improve engagement, learning efficiency, and outcome tracking, demonstrating strong alignment between pedagogy and intelligent systems.",
     images: [
-      "/x-hack/1.jpg",
+      "/x-hack/1.JPG",
       "/x-hack/2.jpg",
       "/x-hack/3.jpg",
     ],
@@ -95,8 +95,8 @@ const experiences = [
     description:
       "Built an AI-powered learning platform integrating interactive content and smart exam proctoring. The solution emphasized accessibility, engagement, and integrity in digital education environments.",
     images: [
-      "/dhristi/1.jfif",
-      "/dhristi/2.jfif",
+      "/dhristi/1.jpg",
+      "/dhristi/2.jpg",
     ],
   },
   {
@@ -107,9 +107,9 @@ const experiences = [
     description:
       "Invited as a keynote speaker to deliver a session on crafting impactful hackathon presentations. Guided over 120 participants on storytelling, structure, and confident delivery, helping them improve their presentation skills for technical competitions and demos.",
     images: [
-      "/htc/1.jfif",
-      "/htc/2.jfif",
-      "/htc/3.jfif",
+      "/htc/1.jpg",
+      "/htc/2.jpg",
+      "/htc/3.jpg",
     ],
   },
   {
@@ -120,7 +120,7 @@ const experiences = [
     description:
       "Completed an intensive AI fellowship focused on Data Science, Machine Learning, and Deep Learning. Worked on end-to-end AI/ML pipelines from data preprocessing to deployment. Built an in-browser AI-based exam proctoring system as a capstone project, integrating multiple models to detect cheating behaviors in real time.",
     images: [
-      "/fuse/1.jfif",
+      "/fuse/1.jpg",
       "/fuse/2.jpg"
     ],
   },
@@ -143,8 +143,8 @@ const experiences = [
     description:
       "Won first place for developing an AI-powered pneumonia detection system using Grad-CAM for interpretable medical imaging. The solution significantly reduced diagnostic time while improving trust through visual explanations of model predictions.",
     images: [
-      "/kathcode/2.jpg",
-      "/kathcode/1.jpg",
+      "/kathcode/2.JPG",
+      "/kathcode/1.JPG",
     ],
   },
   // {
