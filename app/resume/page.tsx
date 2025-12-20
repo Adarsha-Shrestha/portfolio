@@ -12,58 +12,54 @@ export const metadata = {
 
 const experience = [
   {
-    title: "Senior Software Engineer",
-    company: "Tech Company",
-    period: "2022 - Present",
+    title: "Student Partner 2025",
+    company: "Leapfrog",
+    location: "Seattle, WA",
+    period: "April 2025 - October 2025",
     description:
-      "Leading development of AI-powered features, mentoring junior developers, and architecting scalable solutions.",
+      "Selected among 20 fellows from 600+ applicants. Built a full-stack AI-powered exam preparation platform with agentic RAG system and automated exam generation. Developed expertise in web technologies, clean code practices, agentic AI systems, and agile development.",
   },
   {
-    title: "Research Assistant",
-    company: "University Research Lab",
-    period: "2020 - 2022",
-    description: "Conducted research on machine learning applications for cultural heritage preservation.",
+    title: "AI Fellow",
+    company: "Fusemachines",
+    location: "New York, USA",
+    period: "April 2024 - October 2024",
+    description: "Developed expertise in AI, Data Science, and Machine Learning. Built end-to-end AI/ML pipelines from data wrangling to model deployment. Capstone: Built an in-browser proctoring system using multiple AI models to detect cheating in online exams.",
   },
   {
-    title: "Software Developer",
-    company: "Startup Inc",
-    period: "2018 - 2020",
-    description: "Full-stack development of web applications using React, Node.js, and PostgreSQL.",
+    title: "Seeds for the Future 2025",
+    company: "Huawei",
+    location: "Shenzhen, China",
+    period: "June 2025 - August 2025",
+    description: "Top 5 from 650+ applicants to represent Nepal. Gained hands-on training in 5G, AI, and Cloud through Huawei ICT Academy. Explored smart energy, governance, and drone technologies driving sustainable innovation.",
   },
 ]
 
 const education = [
   {
-    degree: "Ph.D. in Computer Science",
-    school: "University Name",
-    period: "2020 - Present",
-    description: "Research focus on machine learning and computer vision for art analysis.",
-  },
-  {
-    degree: "M.S. in Computer Science",
-    school: "University Name",
-    period: "2018 - 2020",
-    description: "Thesis on deep learning for image style transfer.",
-  },
-  {
-    degree: "B.S. in Computer Science",
-    school: "University Name",
-    period: "2014 - 2018",
-    description: "Graduated with honors, minor in Fine Arts.",
+    degree: "B.E. in Computer Engineering",
+    school: "Khwopa College of Engineering",
+    period: "2022 - Present",
+    description: `Awards: Academic Excellence Scholarship
+Organizations: President of IT Club, Campus Director of Hult Prize at KhCE, SQC Coordinator
+Research: Nepali NLP and language models`,
   },
 ]
 
 const awards = [
-  { title: "Best Paper Award", organization: "CVPR 2024", year: "2024" },
-  { title: "Research Fellowship", organization: "National Science Foundation", year: "2023" },
-  { title: "Graduate Excellence Award", organization: "University Name", year: "2022" },
-  { title: "Dean's List", organization: "University Name", year: "2018" },
+  { title:"Academic Excellence Award", organization:"Khwopa College of Engineering", year:"2025-2023", description:"Academic excellence award & scholarship for outstanding academic performance"},
+  { title: "Winner & Most Innovative Project", organization: "CodeYatra", year: "2025", description: "EcoGrid - AI-powered waste management" },
+  { title: "Best AI Implementation Award", organization: "X-Hack 3.0", year: "2025", description: "AI-driven personalized learning system" },
+  { title: "2nd Runner Up", organization: "Dristi 3.0", year:"2025", description: "AI-powered interactive learning system"},
+  { title: "Best UI/UX Award", organization: "Software Competition, Khwopa", year: "2024", description: "Event management system" },
+  { title: "Winner", organization: "Kathcode Hackathon", year: "2024", description: "Pneumonia detection with Grad-CAM" },
+  { title: "Best Presentation Award", organization: "HACKADEMIA 2.0", year: "2024", description: "InvigilAI - Browser proctoring system" },
 ]
 
 const skills = {
-  expert: ["Python", "TypeScript", "React", "TensorFlow", "PyTorch"],
-  advanced: ["Next.js", "Node.js", "PostgreSQL", "Docker", "AWS"],
-  intermediate: ["Kubernetes", "GraphQL", "Rust", "Go"],
+  expert: ["Python", "JavaScript", "Machine Learning", "Deep Learning", "NLP"],
+  advanced: ["LangChain", "LangGraph", "FastAPI", "Git", "React", "Agentic Systems", "RAG Systems"],
+  intermediate: ["C", "C++", "HTML", "CSS", "Figma", "Photoshop"],
 }
 
 export default function ResumePage() {
@@ -86,7 +82,7 @@ export default function ResumePage() {
 
               {/* Download Button */}
               <a
-                href="/resume.pdf"
+                href="/Adarsha-Resume.pdf"
                 download
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-primary text-primary-foreground font-medium hover:opacity-90 transition-all duration-300 hover:scale-105"
               >
@@ -138,7 +134,7 @@ export default function ResumePage() {
                         <span className="text-sm text-muted-foreground">{item.period}</span>
                       </div>
                       <p className="text-accent font-medium mb-2">{item.school}</p>
-                      <p className="text-muted-foreground text-sm">{item.description}</p>
+                      <p className="text-muted-foreground text-sm whitespace-pre-line">{item.description}</p>
                     </div>
                   </AnimatedSection>
                 ))}
@@ -199,6 +195,9 @@ export default function ResumePage() {
                       <p className="text-sm text-muted-foreground">
                         {award.organization} • {award.year}
                       </p>
+                      {award.description && (
+                        <p className="text-sm text-muted-foreground/80 mt-2 italic">{award.description}</p>
+                      )}
                     </div>
                   </AnimatedSection>
                 ))}
