@@ -12,12 +12,12 @@ const highlights = [
   {
     icon: Palette,
     title: "Art & Design",
-    description: "Creating Thangka paintings and traditional artwork",
+    description: "Creating a blend of abstract paintings and traditional artwork",
   },
   {
     icon: BookOpen,
     title: "Research",
-    description: "Publishing academic work in top conferences",
+    description: "Striving to publish academic work in top conferences",
   },
   {
     icon: Award,

@@ -18,13 +18,13 @@ const projects = [
     screenshots: ["/ai-dashboard-screenshot-search-interface.jpg", "/ai-research-analytics-visualization.jpg"],
   },
   {
-    title: "Cultural Heritage Archive",
-    description: "Digital preservation platform for traditional art and manuscripts",
+    title: "Nepali-GPT",
+    description: "AI-powered tool for Nepali language generation",
     fullDescription:
-      "A digital archive platform dedicated to preserving and sharing traditional Tibetan art and manuscripts. Features high-resolution image galleries, detailed metadata cataloging, and advanced search capabilities. The platform includes interactive zoom features for examining intricate details of Thangka paintings and ancient texts.",
-    image: "/cultural-heritage-digital-archive-platform-dark-th.jpg",
-    tags: ["Next.js", "PostgreSQL", "AWS S3", "Tailwind"],
-    demoUrl: "https://example.com",
+      "A cutting-edge AI-powered tool for Nepali language generation. Built with state-of-the-art machine learning models, it can generate high-quality Nepali text based on user input. The system uses natural language processing to understand user queries and provide relevant recommendations from a vast database of academic publications.",
+    image: "/neural-style-transfer-app-dark-interface.jpg",
+    tags: ["Python", "TensorFlow", "NLP", "React"],
+    // demoUrl: "https://example.com",
     githubUrl: "https://github.com",
   },
   {

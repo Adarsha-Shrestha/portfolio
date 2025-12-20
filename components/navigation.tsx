@@ -26,7 +26,7 @@ export function Navigation() {
         <div className="glass-panel mt-4 rounded-2xl px-6 py-4">
           <div className="flex items-center justify-between">
             <Link href="/" className="text-xl font-semibold text-gradient transition-opacity hover:opacity-80">
-              Portfolio
+              AS
             </Link>
 
             {/* Desktop Navigation */}

@@ -3,7 +3,7 @@
 import { motion } from "framer-motion"
 import Image from "next/image"
 import { AnimatedSection } from "./animated-section"
-import { Github, Linkedin, Mail, ArrowDown } from "lucide-react"
+import { Github, Linkedin, Mail, ArrowDown, ArrowRight, GraduationCap } from "lucide-react"
 import Link from "next/link"
 
 export function HeroSection() {
@@ -46,6 +46,15 @@ export function HeroSection() {
             <AnimatedSection delay={0.4}>
               <div className="flex items-center justify-center lg:justify-start gap-4">
                 <Link
+                  href="https://linkedin.com/in/shrestha-adarsha"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-3 rounded-xl glass-panel hover:bg-secondary transition-all duration-300 group"
+                  aria-label="LinkedIn"
+                >
+                  <Linkedin className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
+                </Link>
+                <Link
                   href="https://github.com/adarsha-shrestha"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -55,13 +64,13 @@ export function HeroSection() {
                   <Github className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
                 </Link>
                 <Link
-                  href="https://linkedin.com/in/shrestha-adarsha"
+                  href="https://scholar.google.com/citations?user=Z3S5eiAAAAAJ&hl=en"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 rounded-xl glass-panel hover:bg-secondary transition-all duration-300 group"
-                  aria-label="LinkedIn"
+                  aria-label="Google Scholar"
                 >
-                  <Linkedin className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
+                  <GraduationCap className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
                 </Link>
                 <Link
                   href="mailto:aadarsha.shreshtha@gmail.com"
@@ -79,7 +88,7 @@ export function HeroSection() {
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-primary text-primary-foreground font-medium hover:opacity-90 transition-opacity"
               >
                 View My Work
-                <ArrowDown className="w-4 h-4" />
+                <ArrowRight className="w-4 h-4" />
               </Link>
             </AnimatedSection>
           </div>
